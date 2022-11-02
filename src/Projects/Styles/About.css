@@ -1,0 +1,93 @@
+.owner__main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;   
+    /* margin-top: 4%;  */
+    /* height: 100vh; */
+}
+
+.owner__title{
+@apply text-center font-bold text-5xl pt-14 pb-16
+}
+
+.owner__message{
+height: 500px; 
+width: 600px;
+text-align: justify;
+@apply pl-7 bg-gray-100
+}
+
+.owner__heading{
+padding-left: 28px;
+font-weight: bold;
+font-size: 24px;
+line-height: 32px;
+}
+
+
+.button1{
+    /* padding-left: 250px; */
+    /* margin-left: 190px; */
+    height: 40px;
+    width: 150px;
+    background: rgb(251,3,62);
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.button1:hover{
+    background: black;
+}
+
+
+.button2{
+    /* padding-left: 250px; */
+    /* margin-left: 190px; */
+    height: 40px;
+    width: 150px;
+    background: black;
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.button2:hover{
+    background: rgb(251,3,62);
+}
+
+.owner__message{
+    margin-top: 50px;
+}
+
+.left__side{
+    margin-top: 50px;
+}
+
+/*Media Query*/
+@media (max-width:800px){
+
+.owner__title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    /* @apply text-center font-bold text-5xl pt-14 pb-16  */
+ }
+ 
+.owner__message{
+    height: 650px; 
+    width: 600px;
+    @apply pl-4 bg-gray-100
+}  
+
+.owner__heading{
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+}

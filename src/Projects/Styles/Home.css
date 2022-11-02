@@ -1,0 +1,153 @@
+/* .main__text{
+    padding-left: 80px;
+} */
+
+.image{
+    filter: brightness(50%);
+    @apply  h-[100vh] w-full
+}
+
+/* Caption text */
+.text {
+    color: white;
+    font-size: 50px;
+    padding: 105px 12px;
+    /* padding-top: -40px; */
+    position: absolute;
+    top: 100px;
+    width: 70%;
+    /* background: blue; */
+    font-weight: 800;
+    padding-left: 80px;
+    /* text-align: center; */
+
+  }
+  
+  .text1 {
+    color: white;
+    font-size: 23px;
+    padding: 175px 12px;
+    position: absolute;
+    top: 100px;
+    width: 70%;
+    /* background: blue; */
+    font-weight: 500;
+    padding-left: 80px;
+
+  }
+
+
+.icons{
+        color: white;
+        font-size: 23px;
+        padding: 175px 12px;
+        position: absolute;
+        top: 160px;
+        width: 70%;
+        /* background: blue; */
+        font-weight: 500;
+        padding-left: 80px;        
+    @apply flex flex-wrap gap-7 pl-20 
+}
+
+.icons li{
+    list-style: none;
+}
+.icons li:hover{
+    color: rgb(251,3,62);
+    cursor: pointer;
+}
+
+.button__hire{
+     height: 50px;
+     width: 120px;
+     color: white;
+     background: rgb(251,3,62);
+     border-radius: 50px;
+     position: absolute;
+     top: 390px;
+     margin-left: 75px;
+    
+}
+
+.button__hire:hover{
+    background: gray;
+}
+
+@media (max-width:800px){
+
+.image{
+    filter: brightness(50%);
+    @apply  h-[550px] w-full
+    }
+
+    /* Caption text */
+.text {
+    color: white;
+    font-size: 30px;
+    padding: 55px 12px;
+    /* padding-top: -40px; */
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    /* background: blue; */
+    font-weight: 800;
+    padding-left: 20px;
+    /* text-align: center; */
+
+  }
+
+  .text1 {
+    color: white;
+    font-size: 23px;
+    padding: 175px 12px;
+    position: absolute;
+    top: 50px;
+    width: 70%;
+    /* background: blue; */
+    font-weight: 600;
+    padding-left: 20px;
+
+  }
+
+  .icons{
+    color: white;
+    font-size: 23px;
+    padding: 175px 12px;
+    position: absolute;
+    top: 120px;
+    width: 70%;
+    /* background: blue; */
+    font-weight: 500;
+    /* padding-left: 80px;         */
+    @apply flex flex-wrap gap-7 
+
+}
+
+.icons li{
+    list-style: none;
+}
+.icons li:hover{
+    color: rgb(251,3,62);
+    cursor: pointer;
+}
+
+.button__hire{
+    height: 45px;
+    width: 100px;
+    color: white;
+    font-size: 13px;
+    background: rgb(251,3,62);
+    border-radius: 50px;
+    position: absolute;
+    top: 355px;
+    margin-left: 10px;
+    /* width: 70%; */
+   
+}
+
+.button__hire:hover{
+    background: gray;
+}
+
+  }
